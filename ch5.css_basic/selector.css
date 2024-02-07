@@ -16,6 +16,14 @@ p {
 /* 클래스 선택자 */
 /* 태그보다 우선순위 높음 */
 /* 페이지 상의 여러 요소가 같은 class를 가질 수 있음 */
-.blue {
+p.blue {
   color: lightblue;
+}
+
+.blue.dark {
+  color: mediumblue;
+}
+
+p.blue.dark {
+  color: darkblue;
 }
